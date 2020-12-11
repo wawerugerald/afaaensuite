@@ -1,0 +1,68 @@
+.africa_map{ 
+	height: 640px;
+	cursor:pointer;
+	margin-top: -26px;
+}
+.tooltip{
+	height: 200px;
+}
+.highcharts-legend{
+	dislay: none !important;
+}
+#areas > div {
+    opacity: 1;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+.panel
+{
+    opacity: 1;
+   
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+#areas:hover > div:hover .panel
+{
+    opacity: 1;
+
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+#areas:hover > div:not(:hover) .panel
+{
+      opacity: 0.3;   
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+.more_info {
+    background: none repeat scroll 0 0 #006600;
+    bottom: 25px;
+    color: #ffffff;
+    font-weight: 300;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    right: 0;
+}
+.more_info > h4 {
+    font-size: 18px;
+    font-weight: 100;
+}
+/************** MEDIA QUERIES *******************/
+
+
+/*TABLETS */
+
+@media (min-device-width:768px) and (max-device-width:1080px){
+	
+.africa_map{ 
+	height: 600px;
+	cursor:pointer;
+	margin-top: -26px;
+	/*margin-left:19%; */
+	margin-right:-12%;
+}
+}

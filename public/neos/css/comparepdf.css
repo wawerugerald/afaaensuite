@@ -1,0 +1,40 @@
+ h1 {
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+     color: rgb(51, 51, 51);
+}
+ /*
+ h1.country_name{
+     border: 1px solid #C3996B;
+     border-bottom: none;
+     margin: 0;
+ }*/
+ td{
+     vertical-align: text-top;
+     padding: 0;
+
+ }
+
+ td.border.p_country_details{
+     border-bottom: none;
+ }
+div.inner_county_details h1.country_name {
+    border-right: 1px solid #a97c52;
+}
+
+ div.eti_status, div.dependancy_status, div.block_membership, div.inner_country_content {
+     /*border: 1px solid #C3996B;*/
+     padding: 10px;
+     border-top: none;
+ }
+ td.border{
+     border: 1px solid #C3996B;
+     padding: 10px;
+ }
+ table{
+     border-spacing: 0;
+ }
+ table.acountry_view {
+     margin-bottom: 20px;
+ }

@@ -1,0 +1,40 @@
+.act-title{
+   background: #584942;
+    text-transform: uppercase;
+    color:#ffffff;
+    padding: 14px;
+    text-indent: 20px;
+}
+.act_summary{
+    border: #584942 1px solid;
+    padding: 10px;
+}
+.country_ass_act{
+    margin-top: 10px;
+}
+a.linkbuton1, a.linkbuton2 {
+    background: #a97c52;
+    display: inline-block;
+    padding: 8px;
+    color:#ffffff;
+    text-transform:uppercase;
+    text-decoration:none;
+}
+a.linkbuton1{width:50px; margin-right:5px; text-indent:12px; margin-left:20px;}
+a.linkbuton1:hover, a.linkbuton2:hover{
+	 color:#ffffff !important;
+	 text-decoration:none;
+}
+
+div.span12.countrysummary p{
+	font-weight:300 !important;
+	font-size: 17px;
+}
+div.country_main_act div.act_summary p, div.act_summary p{
+	font-weight:300 !important;
+	font-size: 16px;
+}
+div.country_ass_act div article.ac-large a.linkbuton2{
+	margin-left:20px;
+}
+

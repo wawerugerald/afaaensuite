@@ -1,0 +1,12 @@
+form#admin-taxonomy-form  .control-group,form#admin-act-form .control-group{
+    display: block;
+}
+div.control-group{
+    display: block;
+    margin-left: 0;
+
+}
+div.control-group div.form label {
+
+    margin-left: 0;
+}

@@ -1,0 +1,137 @@
+.ac-container{
+	width: 550px;
+	margin: 0px auto 30px auto;
+	text-align: left;
+}
+.ac-container label{
+	padding: 5px 20px;
+	position: relative;
+	z-index: 20;
+	display: block;
+	height: 30px;
+	cursor: pointer;
+	color: #fff;
+	text-shadow: none;
+	line-height: 33px;
+	font-size: 19px;
+	background: #726658;
+	background-image: url(../images/arrow_down.png);
+	background-repeat: no-repeat;
+	background-position: 518px 25px;
+	/*
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a97c50', endColorstr='#a97c50',GradientType=0 );
+	*/
+	box-shadow:none;
+}
+.ac-container label:hover{
+	background: #726658;
+	background-image:none;
+}
+.ac-container input:checked + label,
+.ac-container input:checked + label:hover{
+	background: #726658;
+	color: #fff;
+	text-shadow: none;
+	box-shadow: none;
+	background-image:none;
+}
+.ac-container input:checked + label{
+	background-image: url(../images/arrow_up.png);
+	background-repeat: no-repeat;
+	background-position: 518px 25px;
+}
+.ac-container label:hover:after,
+.ac-container input:checked + label:hover:after{
+	content: '';
+	position: absolute;
+	width: 24px;
+	height: 44px;
+	right: 13px;
+	top: 7px;
+	background: transparent url(../images/arrow_down.png) no-repeat center center;	
+}
+.ac-container input:checked + label:hover:after{
+	background-image: url(../images/arrow_up.png);
+}
+
+.ac-container input{
+	display: none;
+}
+.ac-container article{
+	background: rgba(255, 255, 255, 0.5);
+	margin-top: -1px;
+	overflow: hidden;
+	height: 0px;
+	position: relative;
+	z-index: 10;
+	-webkit-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+	-moz-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+	-o-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+	-ms-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+	transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+}
+.ac-container article p{
+	color: #594A42;
+	line-height: 23px;
+	font-size: 14px;
+	padding: 0px 20px;
+	text-shadow: none;
+	font-weight:300 !important;
+	padding-bottom:0px;
+}
+.ac-container input:checked ~ article{
+	-webkit-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+	-moz-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+	-o-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+	-ms-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+	transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+	box-shadow: none;
+	border-left:1px solid #726658;
+	border-bottom:1px solid #726658;
+	border-right: 1px solid #726658;
+}
+.ac-container input:checked ~ article.ac-small{
+	height: inherit;
+	overflow-y: scroll;
+	margin-top: -5px;
+	margin-bottom: -10px;
+}
+.ac-container input:checked ~ article.ac-medium{
+	height: inherit;
+	overflow-y: scroll;
+}
+.ac-container input:checked ~ article.ac-large{
+	height: inherit;
+	overflow-y: scroll;
+	margin-top: -6px;
+        margin-bottom: -11px;
+	
+}
+div article.ac-small a.linkbuton2 {
+    margin-left: 20px;
+}
+div article.ac-small {
+	border-right:1px solid #a97c50 !important; 
+	border-left:1px solid #a97c50 !important; 
+}
+/***********************NEW TABLE HOME ***********************/
+
+#chigh{
+	
+    height: 15px;
+}
+#lcompliant{
+
+    height: 15px;
+}
+html body div#atlas_mainbody div.container div#content div.row div.span4 section#areas div.container div.row-fluid div.panel div#dep_hover.home-dependency table tbody tr#cen_sad td{
+	padding: 2px 53.5px;
+	text-indent: -52px;
+}
+html body div#atlas_mainbody div.container div#content div.row div.span4 section#areas div.container div.row-fluid div.panel div#eiti_hover.home-eiti table tbody tr#cen_sad td{
+	padding: 2px 29.5px;
+	text-indent: -28px;
+}  
+#td-text{
+	font-size:11px;
+}
